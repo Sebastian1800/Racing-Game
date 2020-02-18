@@ -5,21 +5,27 @@ using UnityEngine.SceneManagement;
 
 public class ButtonsOption : MonoBehaviour
 {
-    public void PlayGame()
-    {
-        SceneManager.LoadScene(2);
-    }
+    
     public void TrackSelect()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
 
     }
     public void MainMenu()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
     public void Track01()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
+    }
+
+    public void Track02()
+    {
+        SceneManager.LoadScene(4);
+    }
+    public void InfoAutori()
+    {
+        SceneManager.LoadScene(5);
     }
 }

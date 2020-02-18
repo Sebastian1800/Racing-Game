@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/IntrareMenu.unity
+    guid: fba51483f7ef2e949adaf426efe1aa39
+  - enabled: 1
     path: Assets/MainMenu.unity
     guid: 3a0ac7de97e766e45ac2e559bc499417
   - enabled: 1
@@ -14,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/RaceGameTerrainBackUp.unity
     guid: bed43e7314b7b3145a01ea0c49b9572b
+  - enabled: 1
+    path: Assets/RaceGameTerrainBackUpNight.unity
+    guid: 6f164cca613030e4980cfd3937af4774
+  - enabled: 1
+    path: Assets/Infoautori.unity
+    guid: 38baee676e48f2845994779079d38956
   m_configObjects: {}
