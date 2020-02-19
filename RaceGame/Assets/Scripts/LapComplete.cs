@@ -13,9 +13,14 @@ public class LapComplete : MonoBehaviour
 	public GameObject MilliDisplay;
 
 	public GameObject LapTimeBox;
+    public GameObject LapCounter;
 
-	void OnTriggerEnter()
+    public int lapsDone;
+
+
+    void OnTriggerEnter()
 	{
+        lapsDone += 1;
 
 		if (LapTimeManager.SecondCount <= 9)
 		{
@@ -40,6 +45,8 @@ public class LapComplete : MonoBehaviour
 		LapTimeManager.MinuteCount = 0;
 		LapTimeManager.SecondCount = 0;
 		LapTimeManager.MilliCount = 0;
+
+        LapCounter.GetComponent<Text>().text = ""+lapsDone;
 
 		HalfLapTrig.SetActive(true);
 		LapCompleteTrig.SetActive(false);
